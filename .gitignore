@@ -1,0 +1,59 @@
+# Secrets and credentials — never commit
+.env
+auth.json
+auth.lock
+*.key
+*.pem
+
+# Runtime and state data
+state.db
+state.db-shm
+state.db-wal
+state.db.*
+*.db
+
+# Logs
+logs/
+*.log
+
+# Caches
+cache/
+audio_cache/
+image_cache/
+backups/
+
+# Bot-specific runtime
+gateway_state.json
+gateway-starts.log
+processes.json
+channel_directory.json
+models_dev_cache.json
+models_dev_cache.etag
+provider_models_cache.json
+.skills_prompt_snapshot.json
+.update_check
+.pending_messages/
+pairing/
+plans/
+pending_messages/
+runtime/
+sessions/
+state/
+desktop/
+.curator_backups/
+
+# Training repos — keep only the curated high-signal extract, not full clones
+repos/awesome-ad-video-prompts/
+repos/awesome-prompts/
+repos/Marketing-Prompts/
+repos/AI-Prompts-for-Copywriting/
+repos/_high-signal/all-95-products.json
+repos/_high-signal/all-30-hooks.json
+
+# Scraper outputs (regenerated, not source)
+_scraped-datasets/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,21 @@
+{
+  "name": "awesome-ad-video-prompts",
+  "version": "0.1.0",
+  "description": "A curated, original collection of high-craft prompts for AI video ads (Seedance 2.0 / Veo 3 / Kling / Runway). Companion to HeyDreaming (heydreaming.com).",
+  "type": "module",
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "generate": "node scripts/generate-readme.mjs"
+  },
+  "keywords": [
+    "ai-video",
+    "video-prompts",
+    "seedance",
+    "veo",
+    "kling",
+    "runway",
+    "ad-creative",
+    "awesome"
+  ],
+  "homepage": "https://heydreaming.com"
+}
