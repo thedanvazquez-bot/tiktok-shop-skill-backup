@@ -65,3 +65,4 @@ for i in [1, 2, 3, 4]:
 
 ## Pitfall
 - Building the prompt bundle off the scraped dataset alone (without re-verifying features from the actual TikTok Shop listing) is the most common error. Always pull the listing for features.
+- Site re-curated from 95 → 50 products (Oct 16 2026). The data now lives in d1.js–d5.js (10 products each, 50 total). d1.js shape is `window.P=[...];window.HOT_LIST={...};` — use bracket-balance parsing on the JSON array, not a naive `rstrip(';')`. d6.js is a one-line comment ("All 50 products are loaded in d1–d5."). The trend vocabulary collapsed to a single tag: `RISING`. No more `BREAKOUT` / `STRONG RISE` distinctions.
